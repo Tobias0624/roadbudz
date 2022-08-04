@@ -1,0 +1,72 @@
+.header{
+    position: relative;
+}
+
+.ramp{
+    position: absolute;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100px;
+}
+
+.body{
+    position:relative;
+    margin:100px auto;
+    top: 126px;
+    height:100vh;
+    width:100vw;
+}
+
+.main{
+    position:relative;
+    top: 126px;
+    width: 100vw;
+    margin: 10px auto;
+    background-color: crimson;
+}
+
+.index-content{
+    position:absolute;
+    top:111px;
+    width: 100vw;
+    margin: 10px auto;
+}
+
+.banner{
+    position:absolute;
+}
+
+
+
+.types-content{
+    position:absolute;
+    top: 20rem;
+}
+
+.rounded-circle{
+    margin: 12px 14px 0px;
+    left: 24px;
+}
+/**
+
+/**.content-contain{
+    position:absolute;
+    display:inline-block;
+}
+
+
+
+.tit{
+    margin-bottom: 0;
+}
+
+
+
+
+**/
+
+@media (max-width: 992px) {
+    .bye{
+        display: none;
+    }
+}

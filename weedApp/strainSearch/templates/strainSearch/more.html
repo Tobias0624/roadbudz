@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="types-content">
+    <h2>{{ weed_descript.strainName }}</h2>
+    <p>{{ weed_descript.strainType|upper }}</p>
+    <p>{{ weed_descript.strainRating }}</p>
+    <p>{{ weed_descript.strainEffect }}</p>
+    <p>{{ weed_descript.strainFlavor }}</p>
+    <p>{{ weed_descript.strainDescription}}</p>
+</div>
+
+{% endblock %}
